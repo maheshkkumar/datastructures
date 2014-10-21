@@ -13,7 +13,7 @@ void main()
 	{
 		scanf("%d",&a[i]);
 	} 
-	for(i=0;i<n;i++)
+	for(i=0;i<n;i++)               // for loops to compare two elements
 	{
 		for{j=0;j<i;j++)
 			{
@@ -24,6 +24,7 @@ void main()
 				j = j-1;
 			}
 	}
+	
 	for(i=0;i<n;i++)
 	{
 		printf("After sorting\n");
@@ -31,7 +32,7 @@ void main()
 	}
 }
 
-int swap(int x, int y)
+int swap(int x, int y)     // function swapping two elements and returning the final value back to the main function.
 {
 	int temp;
 	temp = x;

@@ -13,9 +13,9 @@ void main()
 	{
 		scanf("%d",&a[i]);
 	} 
-	for(i=0;i<n;i++)               // for loops to compare two elements
+	for(i=1;i<n;i++)               // for loops to compare two elements
 	{
-		for{j=0;j<i;j++)
+		for{j=1;j<i;j++)
 			{
 				while(j>0 && (a[j-1] > a[j]))
 				{

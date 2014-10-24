@@ -1,8 +1,11 @@
-// Program to sort the given set of elements using Insertion Sort.
-// Logic of Insertion Sort, a key element will be compared with all the elements before it and sorting will happen accordingly.
-// Complexity Of Insertion Sort
-// Best case -> O(n)
-// Worst case -> O(n^2)
+/* Program to sort the given set of elements using Insertion Sort.
+ * Logic of Insertion Sort, a key element will be compared with all the elements before it and sorting will happen accordingly.
+ * Complexity Of Insertion Sort
+ * Best case -> O(n)
+ * Worst case -> O(n^2)
+*/
+// Author : Mahesh Kumar K
+
 #include<conio.h>
 #include<stdio.h>
 
